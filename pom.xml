@@ -67,6 +67,10 @@
 							<goal>check</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>br/ufc/tpii/vmsys/exceptions/*</exclude>
+								<exclude>br/ufc/tpii/vmsys/inventory/exceptions/*</exclude>
+							</excludes>
 							<rules>
 								<rule>
 									<!--CLASS RULES-->
@@ -77,8 +81,62 @@
 											<value>COVEREDRATIO</value>
 											<minimum>0.7</minimum>
 										</limit>
+										<limit>
+											<counter>METHOD</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
 									</limits>
 								</rule>
+								<rule>
+									<!--BUNDLE RULES-->
+									<element>BUNDLE</element>
+									<limits>									
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+										<limit>
+											<counter>METHOD</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+									</limits>
+								</rule>
+								<rule>
+									<!--PACKAGE RULES-->
+									<element>PACKAGE</element>
+									<limits>									
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+										<limit>
+											<counter>METHOD</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+									</limits>
+								</rule>
+								<rule>
+									<!--METHOD RULES-->
+									<element>METHOD</element>
+									<limits>									
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+										<limit>
+											<counter>METHOD</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.7</minimum>
+										</limit>
+									</limits>
+								</rule>
+								<!-- aqui haveria o as regras do elemento SOURCEFILES, porem o maven não está o reconhecendo-->
 							</rules>
 						</configuration>
 					</execution>

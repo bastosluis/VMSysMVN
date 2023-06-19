@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class NegativeFundsExceptionTest {
+	static final String MOCK_MESSAGE = "Mock message";
 
 	@Test
 	void testNegativeFundsException() {
@@ -14,8 +15,8 @@ class NegativeFundsExceptionTest {
 
 	@Test
 	void testNegativeFundsExceptionString() {
-//		fail("Not yet implemented");
-		assertTrue(true);
+		Exception e = new InsufficientFunds(MOCK_MESSAGE);
+		assertEquals(MOCK_MESSAGE, e.getMessage());
 
 	}
 
