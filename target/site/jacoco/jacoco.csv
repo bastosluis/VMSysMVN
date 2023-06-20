@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+VMSysMVN,br.ufc.tpii.vmsys,VendingMachine,0,85,0,6,0,23,0,8,0,5
+VMSysMVN,br.ufc.tpii.vmsys.inventory,HashMapInventory,5,83,1,11,1,20,1,10,0,5
+VMSysMVN,br.ufc.tpii.vmsys.inventory,Item,0,60,0,4,0,18,0,9,0,7
+VMSysMVN,br.ufc.tpii.vmsys.exceptions,NegativeFundsException,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.exceptions,InsufficientFunds,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.exceptions,OutOfStock,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.exceptions,InvalidSelection,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.inventory.exceptions,DecrementCountZeroException,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.inventory.exceptions,ItemAlreadyAdded,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.inventory.exceptions,NullItemException,3,4,0,0,2,2,1,1,1,1
+VMSysMVN,br.ufc.tpii.vmsys.inventory.exceptions,ItemNotFound,3,4,0,0,2,2,1,1,1,1

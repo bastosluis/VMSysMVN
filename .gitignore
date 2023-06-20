@@ -25,8 +25,7 @@ tomcat
 *.sar
 *.class
 
-# Maven 
-target/
+# Maven: removed target folder
 
 # IntelliJ project files 
 *.iml

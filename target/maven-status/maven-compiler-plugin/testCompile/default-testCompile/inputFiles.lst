@@ -1,0 +1,11 @@
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/exceptions/DecrementCountZeroExceptionTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/HashMapInventoryTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/exceptions/ItemAlreadyAddedTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/exceptions/InsufficientFundsTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/VendingMachineTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/exceptions/OutOfStockTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/exceptions/InvalidSelectionTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/exceptions/NegativeFundsExceptionTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/ItemTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/exceptions/NullItemExceptionTest.java
+/home/dejiko/eclipse-workspace/VMSysMVN/src/test/java/br/ufc/tpii/vmsys/inventory/exceptions/ItemNotFoundTest.java
